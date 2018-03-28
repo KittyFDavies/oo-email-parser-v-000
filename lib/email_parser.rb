@@ -4,5 +4,6 @@
 # or whitespace (' ').
 class EmailParser
   def parse(emails_string)
+    emails_string.split(/[,\s]/)
   end
 end
